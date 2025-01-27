@@ -17,7 +17,7 @@ const io = new Server(server, {
 )
 
 const db = createClient({
-    url:"libsql://balanced-dead-girl-ulisesmonte.turso.io",
+    url:"" // turso db,
     authToken:process.env.DB_TOKEN,
 })
 
